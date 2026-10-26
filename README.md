@@ -1,41 +1,21 @@
-# Project Title (Update)
+# Camping Planner
 
-Add a description of your project here.
+A simple Android camping planner built with Kotlin and Jetpack Compose. Plan one
+trip, manage a packing checklist, and keep trip details and checklist progress
+saved locally on your device.
 
-## Instructions for Build and Use
+## Features
 
-Steps to build and/or run the software:
+- Edit a trip name, destination, and optional start and end dates.
+- Add, check off, and remove packing-list items.
+- View packing progress as items are checked.
+- Save planner data locally between app launches.
 
-1. First step here
-2.
-3.
+## Build and run
 
-Instructions for using the software:
+Open this project in Android Studio with the Android SDK installed, allow Gradle
+to sync, then run the `app` configuration on an emulator or Android device.
+The project uses Java 17, Android Gradle Plugin 8.6.1, and compile/target SDK 35.
 
-1. First step here
-2.
-3.
-
-## Development Environment
-
-To recreate the development environment, you need the following software and/or libraries with the specified versions:
-
-* First thing here
-*
-*
-
-## Useful Websites to Learn More
-
-I found these websites useful in developing this software:
-
-* [Website Title](Link)
-*
-*
-
-## Future Work
-
-The following items I plan to fix, improve, and/or add to this project in the future:
-
-* [ ] First thing here
-* [ ]
-* [ ]
+To run the unit tests from Android Studio, use the test action for
+`PlannerDataTest`. The tests cover empty-list progress and packed-item progress.
